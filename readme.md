@@ -42,7 +42,7 @@ DELETE https://localhost:3000/api/boleto/CPF_DO_PAGADOR
 ### 🧩 Como executar
 
 1. Abra o terminal do seu computador. Se estiver no Windows pode ser o CMD ou Powershell;
-3. Altere o diretório de trabalho atual para o local em que deseja ter o código da API salva;
+3. Altere o diretório de trabalho atual para o local em que deseja ter o código da API salvo;
 4. instale o git e o node no seu computador;
 5. Faça um clone desse repositório rodando: <br> `git clone https://github.com/leosantosx/gerador-boleto.git`;
 6. Entre na pasta rodando pelo terminal: `cd gerador-boleto`;
