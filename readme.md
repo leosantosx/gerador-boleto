@@ -26,7 +26,7 @@ body:
 <p>O boleto irá ser gerado nesse formato:</p>
 <img src="https://user-images.githubusercontent.com/48372094/114185152-c698c700-991b-11eb-87cd-2de6608521da.jpg">
 
-<P>Em seguida é salvo em um S3 com o nome</p> 
+<P>Em seguida é salvo em um S3 com o nome:</p> 
 
 ```boleto-CPF_DO_PAGADOR.pdf```
 
