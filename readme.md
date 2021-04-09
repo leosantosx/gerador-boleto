@@ -43,7 +43,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [NodeJS](https://nodejs.org/en/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Pagarme](https://github.com/pagarme/node-boleto)
+- [Repositório do Pagarme](https://github.com/pagarme/node-boleto)
 
 ### :memo: Licença
 
