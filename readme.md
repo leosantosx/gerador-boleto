@@ -23,10 +23,10 @@ body:
     }
 ```
 
-> O boleto irá ser gerado nesse formato e em seguida é salvo no S3 da marche
+> O boleto irá ser gerado nesse formato:
 <img src="https://user-images.githubusercontent.com/48372094/114185152-c698c700-991b-11eb-87cd-2de6608521da.jpg">
 
-
+>Em seguida é salvo em um S3 com o nome ```boleto-CPF_DO_PAGADOR.pdf```
 #### Rota para deletar boleto
 
 > Exemplo Request
