@@ -47,7 +47,7 @@ DELETE https://localhost:3000/api/boleto/CPF_DO_PAGADOR
 5. Faça um clone desse repositório rodando: <br> `git clone https://github.com/leosantosx/gerador-boleto.git`;
 6. Entre na pasta rodando pelo terminal: `cd gerador-boleto`;
 7. Rode `npm install` para instalar as dependências do projeto;
-8. Rode `npm dev` para iniciar o servidor de desenvolvimento.
+8. Rode `npm run dev` para iniciar o servidor de desenvolvimento.
 
 ### :rocket: Tecnologias utilizadas
 
