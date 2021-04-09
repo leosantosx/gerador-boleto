@@ -1,13 +1,13 @@
 const express = require('express')
-const BoletoService = require('../service/boleto')
+const BoletoService = require('../model/boleto')
 
 const routes = express.Router()
 
-routes.post('/boleto', (request, response) => {
+routes.post('/api/boleto', (request, response) => {
     BoletoService.gerar(response, request.body)
 })
 
-routes.delete('/boleto/:cpf', (request, response) => {
+routes.delete('/api/boleto/:cpf', (request, response) => {
     const { cpf } = request.params
     BoletoService.deletar(response, cpf)
 })
