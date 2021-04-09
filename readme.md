@@ -3,8 +3,6 @@
 
 ### :wrench: API 
 
-### Gerar boleto e salvar no s3
-
 #### Rota para gerar boleto
 > Exemplo Request para gerar boleto
 ```http
