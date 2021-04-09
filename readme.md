@@ -39,27 +39,15 @@ DELETE https://localhost:3000/api/boleto/CPF_DO_PAGADOR
 <p>É retornando um código de status http 204</p>
 
 
-### 🧩 Como rodar o projeto
+### 🧩 Como executar
 
-<p>1 - Baixe o <a href="https://nodejs.org/en/">NodeJS</a> no seu pc</p>
-<p>2 - instale o git e baixe os arquivos.</p>
-<p>3 - Vá até a pasta onde está os arquivos.</p>
-<p>4 - No seu cmd ou powershell digite:</p>
-<pre><code>npm install
-</code></pre>
-<p>Caso não consiga fazer os passos anteriores tem a versão executável. faça o <a href="https://github.com/leosantosx/bot-stopots/archive/master.zip">Download</a> dos arquivos e vá até o arquivo bot-stopots e clique nele, logo aguarde que o programa irá executar.</p>
-
-
-### 🚀 Como executar
-
-_ps: Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository) vai te ajudar
-
-1. Abra o terminal do seu computador. Se estiver no Windows pode ser o CMD ou Powershell.
-2. Altere o diretório de trabalho atual para o local em que deseja ter o código do módulo salvo no seu computador.
-3. Faça um clone desse repositório rodando: <br> `git clone https://github.com/leosantosx/gerador-boleto.git`;
-4. Entre na pasta rodando pelo terminal: `cd gerador-boleto`;
-5. Rode `npm install` para instalar as dependências do projeto;
-6. Rode `npm dev` para iniciar o servidor de desenvolvimento.
+1. Abra o terminal do seu computador. Se estiver no Windows pode ser o CMD ou Powershell;
+3. Altere o diretório de trabalho atual para o local em que deseja ter o código da API salva no seu computador;
+4. instale o git e o node no seu computador;
+5. Faça um clone desse repositório rodando: <br> `git clone https://github.com/leosantosx/gerador-boleto.git`;
+6. Entre na pasta rodando pelo terminal: `cd gerador-boleto`;
+7. Rode `npm install` para instalar as dependências do projeto;
+8. Rode `npm dev` para iniciar o servidor de desenvolvimento.
 
 ### :rocket: Tecnologias utilizadas
 
