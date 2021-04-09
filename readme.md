@@ -6,7 +6,7 @@
 #### Rota para gerar boleto
 > Exemplo Request para gerar boleto
 ```http
-POST https://localhost:4000/users
+POST http://localhost:3000/api/boleto
 Content-Type: application/json
 
 body:
