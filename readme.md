@@ -4,7 +4,7 @@
 ### :wrench: API 
 
 #### Rota para gerar boleto
-> Exemplo de Request para gerar boleto
+> Exemplo de Request para gerar um boleto
 ```http
 POST http://localhost:3000/api/boleto
 Content-Type: application/json
@@ -25,7 +25,6 @@ body:
 
 <p>O boleto irá ser gerado nesse formato:</p>
 <img src="https://user-images.githubusercontent.com/48372094/114185152-c698c700-991b-11eb-87cd-2de6608521da.jpg">
-
 <P>Em seguida é salvo no S3 com o nome:</p> 
 
 ```boleto-CPF_DO_PAGADOR.pdf```
