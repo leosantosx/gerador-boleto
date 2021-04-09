@@ -31,7 +31,7 @@ body:
 
 > Exemplo Request
 ```http
-DELETE https://localhost:3000/api/boleto/CPF
+DELETE https://localhost:3000/api/boleto/CPF_DO_PAGADOR
 ```
 > Retorno do request
 <p>É retornando um código de status http 204</p>
