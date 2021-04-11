@@ -39,12 +39,16 @@ class BoletoService {
                 .then(pdf => {
                     Sftp.enviar(pdf, cpf);
                 })
-                
-                return response.send(html)
+                const url = `${process.env.HOST}:${process.env.PORT}/api/boleto/${cpf}`
+                return response.json({ url })
             })
         }catch(err){
             response.status(400).json({ erro: err.message})
         }
+    }
+
+    baixar(response, cpf){
+        Sftp.baixar(cpf, response)
     }
 
     deletar(response, cpf){

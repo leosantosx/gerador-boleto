@@ -1,5 +1,4 @@
 const Client = require('ssh2-sftp-client')
-
 require('dotenv').config()
 
 const configSftp = {
@@ -22,6 +21,26 @@ class Sftp {
         })
         .then(() => {
             sftp.end()
+        })
+    }
+
+    baixar(cpf, response){
+        const caminhoArq = `${process.env.DIRECTORY}boleto-${cpf}.pdf`
+
+        const sftp = new Client();
+
+        sftp.connect(configSftp)
+        .then(() => {
+            return sftp.get(caminhoArq);
+        })
+        .then(pdf => {
+            sftp.end();
+        
+            var filename = "boleto.pdf"; 
+            response.setHeader('Content-disposition', 'attachment; filename="' + filename + '"');
+            response.setHeader('Content-type', 'application/pdf');
+
+            response.send(pdf)
         })
     }
 

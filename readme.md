@@ -29,6 +29,15 @@ body:
 
 ```boleto-CPF_DO_PAGADOR.pdf```
 
+e retornado a url de download
+
+> Retorno do request
+```
+{
+    "url": "http://localhost:3000/api/boleto/33333333333"
+}
+```
+
 ### Rota para deletar boleto do S3
 
 > Exemplo Request
